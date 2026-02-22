@@ -2,8 +2,8 @@
 
 ## Links
 
-- Website/Frontend: <https://lego-store.dev>
-  - Backend API: <https://lego-store.dev>
+- Website/Frontend: <https://legostore.namakita.dev>
+  - Backend API: <https://legostore.namakita.dev>
 - Repositories:
   - General: <https://github.com/ADaneshS1/legostore>
   - Backend API: <https://github.com/ADaneshS1/legostore-backend>
@@ -26,6 +26,7 @@ Inspirations:
   - Price
   - Description
   - Stock level / In stock or not
+  - Genre (Action, Adventure, Building, Fantasy, Horror, Mystery, Sci-Fi, Sports, Superhero, War)
   - Add to Cart Form:
     - Quantity Input
     - Increment & Decrement Button
@@ -51,7 +52,7 @@ Inspirations:
 
 <img alt="Home Page" src="./designs/home.jpg" width="400" />
 
-<!-- ### Product by Slug -->
+### Product by Slug
 
 <!-- <img alt="Product by Slug" src="./designs/product-by-slug.jpg" width="400" /> -->
 
@@ -119,7 +120,7 @@ With Auth:
   "sku": "LG-MARVEL-02",
   "price": 150000,
   "stockQuantity": 25,
-  "imageUrl": "https://link-your-pic.com/marvel-2.jpg",
+  "imageUrl": "https://example.com/...",
   "createdAt": "2024-05-20T10:00:00Z",
   "updatedAt": "2024-05-20T10:00:00Z"
 }
@@ -135,7 +136,7 @@ Request Body:
   "price": 150000,
   "sku": "LG-JURASSIC-01",
   "stockQuantity": 20,
-  "imageUrl": "https://link-your-pic.com/jurassic-world.jpg"
+  "imageUrl": "https://example.com/..."
 }
 ```
 
@@ -149,6 +150,6 @@ Response Body:
   "price": 150000,
   "sku": "LG-JURASSIC-01",
   "stockQuantity": 20,
-  "imageUrl": "https://link-gambar-kamu.com/jurassic-world.jpg"
+  "imageUrl": "https://example.com/..."
 }
 ```
