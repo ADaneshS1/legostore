@@ -1,4 +1,4 @@
-# KADS Game Store
+# Lego Store
 
 ## Links
 
